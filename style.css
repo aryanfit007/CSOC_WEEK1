@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body {
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-top: 100px;
+    padding: auto;
+   
+}
+.container{
+    background: rgb(197, 156, 233);
+    width: 500px;
+    padding: 50px;
+    
+
+}
+#heading{
+    text-align: center;
+    font-style: italic;
+}
+#one{
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px 30px 10px 30px;
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 20px;
+    font-style: initial;
+    border-radius: 40px;
+    cursor: crosshair;
+    color: darkblue;
+}
+#two{
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 30px 10px 30px;
+    border-style: inset;
+    border-radius: 2px;
+    border-width: 20px;
+    font-style: initial;
+    border-radius: 40px;
+    cursor: crosshair;
+    color: darkblue;
+}    
+#X,#O{
+    color: rgb(211, 18, 18);
+}
+.choose{
+    text-align-last: center;
+    margin-top: 100px;
+}
+#forX{
+    text-align-last: center;
+    margin-top: 40px;
+    padding: auto;
+    color: rgb(211, 18, 18);
+    font-size: 40px;
+    cursor: pointer;
+    border-style: groove;
+}  
+#forO{text-align-last: center;
+    margin-top: 20px;
+    padding: auto;
+    color: rgb(211, 18, 18);
+    font-size: 40px;
+    cursor: pointer;
+    border-style: groove;
+} 
+.gamebox{
+    width: 100px;
+    height: 100px;
+    background-image: url(gamebox.png);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    
+}
+td{
+    height: 80px;
+    width: 80px;
+    font-size: 40px;
+   
+}
+table{
+    left: 50%;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.move{
+    margin-top: 20px;
+    padding: auto;
+    text-align: center;
+    color: crimson;
+}
+#you{
+    margin-top: 20px;
+    padding: auto;
+    color: rgb(10, 245, 10);
+    font-size: 40px;
+    cursor: pointer;
+}
+#comp{
+    margin-top: 20px;
+    padding: auto;
+    color: rgb(10, 245, 10);
+    font-size: 40px;
+    cursor: pointer;
+}
+#end{
+    margin-top: 20px;
+    padding: auto;
+    color: rgb(10, 245, 10);
+    font-size: 40px;
+
+}
+.x::after{
+    content: 'x';
+    font-size: 50px;
+
+}
+.o::after{
+    content: 'o';
+    font-size: 50px;
+}
+.status{
+    color:chartreuse;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+
+
